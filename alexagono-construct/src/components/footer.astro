@@ -1,3 +1,73 @@
 ---
-
+import Facebook from "../components/Facebook.astro";
+import Twitter from "../components/Twitter.astro";
+import Instagram from "../components/Instagram.astro";
 ---
+
+<style>
+    @font-face {
+			font-family: "visby" ;
+			src: url("../fonts/visby.otf");
+		}
+
+    body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+
+    a{
+        color: #FFFFFF;
+    }
+    a:visited{
+        color: #FFFFFF;
+    }
+
+    a:hover{
+        color: #FFFFFF;
+    }
+
+    a:active{
+        color: #FFFFFF;
+    }
+
+
+    #footer-principal{
+        background: rgb(0,62,146);
+        color: #FFFFFF;
+        font-family: visby;
+    }
+
+    #nosotros-div{
+
+    }
+
+    #emails{
+
+    }
+
+    #social{
+
+    }
+</style>
+
+<div id="footer-principal">
+    <div id="nosotros-div">
+        <h1>¿Por qué nosotros?</h1>
+        <h2>
+            Acercamos la tecnología a las PYMES. Nuestros principios
+            son la institucionalidad y la creatividad.
+        </h2>
+    </div>
+    <div id="emails">
+        <h1>Nuestros email</h1>
+        <a href="mailto:manuel.barraza@alexagono.com">manuel.barraza@alexagono.com</a>
+        <br>
+        <a href="mailto:jared.garcia@alexagono.com">jared.garcia@alexagono.com</a>
+    </div>
+    <div id="social">
+        <Facebook/>
+        <Twitter/>
+        <Instagram/>
+    </div>
+</div>

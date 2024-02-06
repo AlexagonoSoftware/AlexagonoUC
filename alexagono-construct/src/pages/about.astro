@@ -1,0 +1,54 @@
+---
+import Header from "../components/Header.astro"
+import Footer from "../components/Footer.astro"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexágono - Nosotros</title>
+</head>
+
+<style>
+    	@font-face {
+			font-family: "visby-bold";
+			src: url("../fonts/visby-bold.otf");
+		}
+
+        @font-face {
+			font-family: "visby" ;
+			src: url("../fonts/visby.otf");
+		}
+
+        h1{
+            font-family: visby-bold;
+        }
+        p{
+            font-family: visby;
+        }
+
+</style>
+
+<Header/>
+<body>
+    <div id="nosotros-div">
+        <h1>¿Qué acerca de nosotros?</h1>
+        <p>
+            En Alexágono, sacamos la chamba. No somos solo coders, ¡Somos la banda
+              que transforma retos en pura chispa digital!
+        </p>
+        <p>
+            Aquí la accesibilidad y la institucionalidad son el ritmo que nos mueve.
+            Rompemos paradigmas, porque creemos en un futuro digital donde todos somos parte
+            de la movida.
+        </p>
+        <p>
+            ¡Únete a la revolución tech, donde cada línea de código es un paso hacia adelante
+            en nuestra onda colectiva!
+        </p>
+    </div>
+</body>
+<Footer/>
+</html>
